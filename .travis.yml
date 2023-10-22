@@ -12,12 +12,13 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: eu-central-1"
+  region: "eu-central-1"
   app: "dockermac"
   env: "dockermac-env"
   bucket_name: "elasticbeanstalk-eu-central-1-864244600191"
   bucket_path: "dockermac"
   on:
+  
    branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: "$AWS_SECRET_KEY"
