@@ -12,11 +12,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "eu-central-1"
-  app: "dockermac"
-  env: "dockermac-env"
-  bucket_name: "elasticbeanstalk-eu-central-1-864244600191"
-  bucket_path: "dockermac"
+  region: "us-east-1"
+  app: "docker"
+  env: "docker-env"
+  bucket_name: "elasticbeanstalk-us-east-1-864244600191"
+  bucket_path: "docker"
   on:
   
    branch: master
