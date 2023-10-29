@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React for sure 2023-10-29 10:55
+          Learn React for sure 2023-10-29 12:00
         </a>
       </header>
     </div>
